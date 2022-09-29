@@ -1,16 +1,20 @@
-import React from 'react';
+ 
 import './Break.css';
 
-const Break = () => {
-    return (
+const Break = (props) => {
+    console.log(props)
+
+
+return (
         <div className='break'>
             <h5>Add  A Break</h5>
             <div className="break-btn">
                   
-            <button>10s</button>
-            <button>20s</button>
-            <button>30s</button>
-            <button>40s</button>
+            <button onClick={()=>props.handleAddButton(10)}>10s</button>
+            <button onClick={()=>props.handleAddButton(20)}>20s</button>
+            <button onClick={()=>props.handleAddButton(30)}>30s</button>
+            <button onClick={()=>props.handleAddButton(40)}>40s</button>
+           
           </div>
             
         </div>

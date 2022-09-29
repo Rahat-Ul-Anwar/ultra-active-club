@@ -1,35 +1,43 @@
 
-import React from 'react';
+import React, { useState } from 'react';
 import Break from '../Break/Break';
 import Information from '../Information/Information';
 import './Duration.css';
 
 const Duration = (props) => { 
 
-console.log(props.addTimes)
+ 
     const {addTimes} = props;
 
     let total = 0;
     for (const time of addTimes) {
         
-         
-       
         total = total + time.time_required;
         console.log(typeof total)
     
+    }
+
+
+     
+    const [button, setButton] = useState(0);
+
+    const handleAddButton = (value) => {
+        setButton(value);
+        console.log(value);
+         
     }
    
 return (
         <div className='duration'>
          
         <Information></Information>
-        <Break></Break>
+        <Break handleAddButton={handleAddButton}></Break>
             
             <h4>Selected Item: {props.addTimes.length}</h4>
             <h3>Study details</h3>
           <div className='time'>
             <h5>Study Time : {total} hours</h5>
-            <h5>Break Time : </h5>
+            <h5 >Break Time : {button}s</h5>
           </div>
         
         <button type="button" className='add-button' id="liveToastBtn">Activity Completed</button>
