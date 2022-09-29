@@ -7,6 +7,8 @@ import './Study.css'
 const Study = () => {
 
     const [categories, setCategories] = useState([]);
+
+    const [addTimes, setAddTimes] = useState([]);
     
     useEffect(() => {
 
@@ -15,11 +17,11 @@ const Study = () => {
         .then(data => setCategories(data))
     }, []);
 
-    const [addTime, setAddTime] = useState([]);
+   
 
     const handleAddToStudy = (category) => {
-        const newTime = [...addTime, category];
-        setAddTime(newTime);
+        const newTime = [...addTimes, category];
+        setAddTimes(newTime);
     }
 
 
@@ -31,23 +33,21 @@ const Study = () => {
             
                 <div className='categories'>
                     
-                {
-
-
+                    {
                         categories.map(category => <Category category={category}
                             key={category.id}
                             handleAddToStudy={handleAddToStudy}
                         
                         ></Category>)    
 
-                  }
+                    }
                 </div>
      
             </div>
 
 
             <div className='duration'>
-               <Duration categories={categories}></Duration>
+               <Duration addTimes={addTimes}></Duration>
             </div>
         </div>
     );
