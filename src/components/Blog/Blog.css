@@ -1,0 +1,11 @@
+.blog{
+    width: 80%;
+    margin: 20px auto;
+    background-color: antiquewhite;
+    padding: 30px;
+}
+
+.blog h1{
+    text-align: center;
+    padding: 20px;
+}
