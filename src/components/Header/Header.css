@@ -3,11 +3,14 @@ display: flex;
 align-items: center;
 justify-content:space-around;
 background-color: darkcyan;
+padding: 10px;
+color: aliceblue;
 }
 
-.header a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    font-weight: 600;
+@media screen and (max-width: 576px){
+
+.header{
+ 
+ width: 100%;
+}  
 }

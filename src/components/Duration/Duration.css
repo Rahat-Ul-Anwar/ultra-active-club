@@ -3,4 +3,18 @@
     position: sticky;
     top:0;
 }
+.duration .time h5{
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.add-button {
+    background-color:darkturquoise;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    width: 100%;
+    border-radius: 10px;
+}
 

@@ -13,3 +13,43 @@
     grid-template-columns: repeat(3 ,1fr);
    
 }
+
+
+/* mobile screen */
+@media screen and (max-width: 575px) {
+    
+    .study-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 10px;
+        
+     
+    }
+
+    .categories {
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+       
+    }
+    
+}
+
+/* tablet screen */
+
+ @media screen and (min-width: 575px) and (max-width : 767px){
+    
+    .study-container{
+        display: grid;
+        grid-template-columns: 4fr;
+        padding: 10px;
+        
+     
+    }
+
+    .categories {
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+       
+    }
+    
+} 

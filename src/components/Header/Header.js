@@ -6,7 +6,7 @@ const Header = () => {
         <div className='header'>
             
             <h2>Study Website</h2>
-            <a href="/blog">Blog</a>
+           
         </div>
     );
 };
