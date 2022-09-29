@@ -3,7 +3,11 @@
     position: sticky;
     top:0;
 }
-.duration .time h5{
+
+.duration .time{
+    margin-top: 20px;
+}
+.duration .time h6{
     background-color: bisque;
     padding: 10px;
     border-radius: 20px;

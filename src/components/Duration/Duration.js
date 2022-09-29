@@ -33,12 +33,12 @@ return (
         <Information></Information>
         <Break handleAddButton={handleAddButton}></Break>
             
-            <h4>Selected Item: {props.addTimes.length}</h4>
-            <h3>Study details</h3>
-          <div className='time'>
-            <h5>Study Time : {total} hours</h5>
-            <h5 >Break Time : {button}s</h5>
-          </div>
+            <h5>Selected Item: {props.addTimes.length}</h5>
+            <h4>Study details</h4>
+            <div className='time'>
+                <h6>Study Time : {total} hours</h6>
+                <h6>Break Time : {button} seconds</h6>
+            </div>
         
         <button type="button" className='add-button' id="liveToastBtn">Activity Completed</button>
 
