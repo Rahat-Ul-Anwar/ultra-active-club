@@ -1,0 +1,13 @@
+.header{
+display: flex;
+align-items: center;
+justify-content:space-around;
+background-color: darkcyan;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}

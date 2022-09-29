@@ -1,6 +1,6 @@
 [
     {
-      "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
+      "id": 1,
       "name": "Reading Books",
       "img": "https://image3.mouthshut.com/images/imagesp/925106960s.jpg",
       "for_age": 25,
@@ -8,7 +8,7 @@
     },
   
    {
-      "id": "124e13b7-2d54-6b2f-a74d-a77b362d6eac",
+      "id": 2,
       "name": "Writing",
       "img": "https://images.ctfassets.net/3s5io6mnxfqz/4EXZsBxF5lrToPtKIe19zP/19aeaad55890c84e431e7571bfa271ac/AdobeStock_311821989.jpeg",
       "for_age": 25,
@@ -16,7 +16,7 @@
     },
   
    {
-      "id": "124e1339-2354-4b2f-a74d-a77bf62j6ead",
+      "id": 3,
       "name": "Watching Tutorial",
       "img": "https://img.freepik.com/premium-photo/successful-authentic-asian-female-freelancer-watching-tutorial-video-creative-ideas-laptop-computer-while-working-home-office-positive-happy-online-web-3-0-user-technology-application-developme_482257-49213.jpg?w=2000",
       "for_age": 25,
@@ -24,7 +24,7 @@
     },
   
    {
-      "id": "124h13b9-2d54-4b2f-a24d-a77b362d6ead",
+      "id":4,
       "name": "Learning English",
       "img": "https://contenthub-static.grammarly.com/blog/wp-content/uploads/2020/10/ways-to-learn-english-fast.jpg",
       "for_age": 25,
@@ -32,7 +32,7 @@
     },
   
    {
-      "id": "124e13b9-2dk4-4b2f-a74d-a77b362d7ead",
+      "id": 5,
       "name": "Coding",
       "img": "https://assets.entrepreneur.com/content/3x2/2000/20160628101609-Coding.jpeg",
       "for_age": 25,
@@ -40,7 +40,7 @@
     },
   
    {
-      "id": "124e13b9-2dk4-4b2f-a74d-a77b362d7ead",
+      "id": 6,
       "name": "Listening Podcast",
       "img": "https://the-media-leader.com/wp-content/uploads/2021/01/MicrosoftTeams-image.png",
       "for_age": 25,
@@ -50,4 +50,7 @@
    
     
   ]
+
+  
+  
   

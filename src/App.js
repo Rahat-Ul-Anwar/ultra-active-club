@@ -1,9 +1,13 @@
  import './App.css';
+import Header from './components/Header/Header';
+import Study from './components/Study/Study';
 
 function App() {
   return (
-    <div className="App">
-    
+    <div>
+
+      <Header></Header>
+      <Study></Study>
    
     </div>
   );
